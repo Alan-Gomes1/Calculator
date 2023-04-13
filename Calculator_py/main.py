@@ -89,8 +89,8 @@ two = Button(frame_body, command = lambda: display("2"), text="2", width=6, heig
 two.place(x=74, y=168)
 three = Button(frame_body, command = lambda: display("3"), text="3", width=6, height=2, bg=black_dark, fg=white, font=("Ivy 13 bold"), relief=RAISED, overrelief=RIDGE)
 three.place(x=145, y=168)
-sum = Button(frame_body, command = lambda: display("+"), text="+", width=6, height=2, fg=white, bg=orange, font=("Ivy 13 bold"), relief=RAISED, overrelief=RIDGE)
-sum.place(x=217, y=168)
+addition = Button(frame_body, command = lambda: display("+"), text="+", width=6, height=2, fg=white, bg=orange, font=("Ivy 13 bold"), relief=RAISED, overrelief=RIDGE)
+addition.place(x=217, y=168)
 
 
 mod = Button(frame_body, command = lambda: display("%"), text="%", width=6, height=2, bg=black, fg=white, font=("Ivy 13 bold"), relief=RAISED, overrelief=RIDGE)
